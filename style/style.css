@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap");
+
+.body {
+  background-color: #131313;
+  margin-right: 134.5px;
+  margin-left: 134.5px;
+  margin-top: 107px;
+}
+
+.header__div-container {
+  margin-right: 91px;
+}
+
+.header__list {
+  display: flex;
+  gap: 60px;
+  justify-content: right;
+  list-style: none;
+}
+
+.header__item {
+  cursor: pointer;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.header__item-home {
+  color: #e3b873;
+  text-decoration: underline;
+}
+
+.main__h1 {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  color: #e3b873;
+}
+
+.main__p {
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+.main__list-p {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #e3b873;
+}
+
+.main__item {
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+  color: #ffffff;
+  font-size: 13px;
+  list-style: none;
+}
+
+.main__text-container {
+  width: 442px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.main__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__list-container {
+  display: flex;
+  gap: 124px;
+  margin-left: 0;
+}
+
+.main__list {
+  padding-left: 0;
+  margin: 0;
+}
+
+.main__img {
+  margin-top: 45px;
+}
+
+.main__img-container {
+  gap: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img__one {
+  background-image: url("../img/Interior1.png");
+  width: 679px;
+  height: 482px;
+  background-size: cover;
+}
+
+.img__two {
+  background-image: url("../img/Interior2.png");
+  display: none;
+  width: 679px;
+  height: 482px;
+  background-size: cover;
+}
+
+.img__three {
+  background-image: url("../img/Interior3.png");
+  display: none;
+  width: 679px;
+  height: 482px;
+  background-size: cover;
+}
+
+.image-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.arrLeft {
+  cursor: pointer;
+  width: 41px;
+  height: 13px;
+  background-image: url("../img/Arrow in the left.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.arrRight {
+  cursor: pointer;
+  width: 41px;
+  height: 13px;
+  background-image: url("../img/Arrow in the right.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.point__one {
+  width: 8px;
+  height: 8px;
+  background-image: url("../img/The point is painted.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.point__two {
+  width: 8px;
+  height: 8px;
+  background-image: url("../img/The point.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.point__three {
+  width: 8px;
+  height: 8px;
+  background-image: url("../img/The point.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
